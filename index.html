@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        /*
+        Isto é um comentário
+        */
+        document.write("Libbs 2024"  + "<br>")
+
+        var nome = 'Lucas Santana';
+        var endereco = 'Rua de casa';
+        var telefone = '11 94566-3456';
+        const anoNascimento = 2006;
+
+        //studing= prompt("Voce esta estudando?")
+        studing = confirm("Está estudando no momento");
+        console.log(typeof(anoNascimento));
+        console.log(typeof(telefone))
+        /*
+        O usuário digita a idade e:
+        */
+
+
+        var idade;
+        idade = prompt("Qual sua idade?");
+
+        if (idade >= 50) {
+            alert("Nada de neto??!!")
+        }
+        else if(idade > 25) {
+            alert("já não prescisa morar com o papai")
+        } 
+        else if (idade >= 18) {
+            alert("Parabéns! Já é hora de tirar a carteira")
+        } 
+        else if (idade >= 12){
+            alert("alerta que ainda brinca")
+        } 
+        else {
+            ("idade invalida")
+        }
+
+
+        if(studing){
+        alert("Parabéns!!!");
+        } else {
+            alert("Vamos estudar...")
+        }
+
+        document.write(nome + "<br>");
+        document.write(endereco + "<br>");
+        document.write(telefone + "<br>");
+        document.write(anoNascimento + "<br>");
+
+
+        console.log("Estou aqui...")
+        
+        //mostrar mensagem
+        alert("você chegou aqui...")
+    </script>
 </head>
 <body>
-    
+    <p>Escrito no HTML</p>
 </body>
 </html>
